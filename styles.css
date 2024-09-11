@@ -1,0 +1,50 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #e0e0e0;
+}
+
+.container{
+  margin-top: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 1000px;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+#title{
+  text-align: center;
+}
+h1{
+  margin-bottom: 0;
+}
+p{
+  margin-top: 0;
+}
+
+#tooltip{
+  border-radius: 10px;
+  position: absolute;
+  text-align: left;
+  width: auto;
+  height: auto;
+  font-size: 12px;
+  pointer-events: none;
+  padding: 10px;
+  background: lightblue;
+  opacity: 0;
+  font-family: verdana;
+}
+.dot{
+  opacity: 0.7;
+  stroke: black;
+  stroke-width: 1;
+}
